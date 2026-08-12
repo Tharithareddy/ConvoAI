@@ -1,0 +1,24 @@
+# ConvoAI Requirements
+# Minimum Python version: 3.7
+
+# Core dependencies
+nltk>=3.8
+textblob>=0.17.1
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Web interface dependencies
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# Enhanced features (optional):
+colorama>=0.4.4  # For better cross-platform colored terminal output
+textstat>=0.7.0  # For advanced text complexity analysis
+
+# OpenAI integration (optional but recommended)
+openai>=1.0.0    # For enhanced AI analysis and dynamic question generation
+
+# Development dependencies (optional):
+pytest>=6.0.0   # For running tests
+black>=21.0.0    # For code formatting
